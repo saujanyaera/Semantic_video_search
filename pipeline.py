@@ -5,8 +5,7 @@ from app.services.video_vector_store import index, metadata_store, add_all_vecto
 import numpy as np
 
 
-text="birds"
-videopath="app/services/animalvideo.mp4"
+
 
 # text
 def final_query_embedding(text):
